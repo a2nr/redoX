@@ -24,13 +24,13 @@
 % Daftar pemenggalan suku kata dan istilah dalam LaTeX
 \include{hype.indonesia}
 % Daftar istilah yang mungkin perlu ditandai 
-\input{istilah}
+\input{OTHER/istilah}
 
 % Awal bagian penulisan laporan
 \begin{document}
 %
 % Sampul Laporan
-\include{sampul}
+\include{OTHER/sampul}
 
 %
 % Gunakan penomeran romawi
@@ -39,7 +39,7 @@
 %
 % load halaman judul dalam
 \addChapter{HALAMAN JUDUL}
-\include{judul_dalam}
+\include{OTHER/judul_dalam}
 
 %
 % setelah bagian ini, halaman dihitung sebagai halaman ke 2
@@ -48,30 +48,30 @@
 %
 % load halaman pengesahan
 \addChapter{LEMBAR PERSETUJUAN}
-\include{pengesahan}
+\include{OTHER/pengesahan}
 %
 % load halaman orisinalitas 
 \addChapter{LEMBAR PERNYATAAN ORISINALITAS}
-\include{orisinal}
+\include{OTHER/orisinal}
 %
 %
 \addChapter{LEMBAR PENGESAHAN}
-\include{pengesahan_sidang}
+\include{OTHER/pengesahan_sidang}
 %
 %
 \addChapter{\kataPengantar}
-\include{pengantar}
+\include{OTHER/pengantar}
 %
 %
 \addChapter{LEMBAR PERSETUJUAN PUBLIKASI ILMIAH}
-\include{persetujuan_publikasi}
+\include{OTHER/persetujuan_publikasi}
 %
 % 
 \addChapter{ABSTRAK}
-\include{abstrak}
+\include{OTHER/abstrak}
 %
 %
-\include{abstract}
+\include{OTHER/abstract}
 
 %
 % Daftar isi, gambar, dan tabel
@@ -94,25 +94,25 @@
 %
 %
 %
-\include{bab1}
-\include{bab2}
-\include{bab3}
-\include{bab4}
-\include{bab5}
-\include{bab6}
-\include{kesimpulan}
+\include{BAB1/bab1}
+\include{BAB2/bab2}
+\include{BAB3/bab3}
+\include{BAB4/bab4}
+\include{BAB5/bab5}
+\include{BAB6/bab6}
+\include{OTHER/kesimpulan}
 
 %
 % Daftar Pustaka
-\include{pustaka}
+\include{OTHER/pustaka}
 
 %
 % Lampiran 
 %
 \begin{appendix}
-	\include{markLampiran}
+	\include{OTHER/markLampiran}
 	\setcounter{page}{2}
-	\include{lampiran}
+	\include{OTHER/lampiran}
 \end{appendix}
 
 \end{document}
