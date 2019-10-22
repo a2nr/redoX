@@ -17,7 +17,7 @@
 
 % Load konfigurasi LaTeX untuk tipe laporan thesis
 \usepackage{uithesis}
-
+\addbibresource{OTHER/references.bib}
 
 % Load konfigurasi khusus untuk laporan yang sedang dibuat
 \input{laporan_setting}
@@ -104,7 +104,9 @@
 
 %
 % Daftar Pustaka
-\include{OTHER/pustaka}
+\renewcommand{\bibname}{\mybibname}
+\addChapter{\bibname}
+\printbibliography[title=\bibname]
 
 %
 % Lampiran 

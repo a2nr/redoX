@@ -3,6 +3,7 @@
 % 
 % @author  Andreas Febrian
 % @version 1.03
+% @edit by Anggoro Dwi Nur Rohman
 %
 % Terima kasih untuk: 
 % 1. Lia Sadita 
@@ -100,11 +101,16 @@
 % 
 \usepackage[font=footnotesize,format=plain,labelfont=bf,up,textfont=up]{caption}
 
+% digunakan untuk membuat sub gambar didalam figure
+% usepackage dilakukan setelah caption,
+% 
+\usepackage{subcaption}
+
 % 
 % Membantu penulisan notasi matematika terutama untuk dokumen dengan banyak 
 % rumus. 
 % 
-\usepackage{amsmath}
+\usepackage{amsmath, amsfonts, stmaryrd, amssymb}
 
 % 
 % Membuat seluruh tulisan menjadi Times New Roman.
@@ -135,9 +141,28 @@
 % 
 % 
 \usepackage{float}
-  \floatplacement{figure}{H}
-  \floatplacement{table}{H}
+\floatplacement{figure}{H}
+\floatplacement{table}{H}
 
+% Untuk mengatur ukuran font
+%
+\usepackage{anyfontsize}
+%
+% Digunakan untuk nomor dengan format inline
+%
+\usepackage[inline]{enumitem}
+%
+% Menggunakan biblatex untuk referensi
+%
+\usepackage[backend=bibtex, style=authoryear-icomp,autocite=inline]{biblatex}
+%
+% Digunakan untuk menghasilkan tabel pseudocode
+%
+% \usepackage[chapter]{algorithm}
+% \usepackage[noend]{algpseudocode}
+
+\usepackage{xcolor}
+\usepackage[linesnumbered,ruled,vlined,algochapter]{algorithm2e}
 
 %-----------------------------------------------------------------------------%
 % Konfigurasi
@@ -188,7 +213,7 @@
 	\fancyhead[C]{} 
 	\fancyhead[R]{\thepage} 
 	\renewcommand{\headrulewidth}{0.0pt} 
-	\fancyfoot[R]{\footnotesize \bo{Universitas Indonesia}} 
+	\fancyfoot[R]{\footnotesize \bo{ }} 
 	\renewcommand{\footrulewidth}{0.0pt} 
 \pagestyle{fancy}
 
@@ -260,15 +285,21 @@
 % 
 % Alias untuk perintah \LaTeX
 \newcommand{\latex}{\LaTeX}
-
-
+%
+% 
+% fix link daftar isi yang sebelumnya ngelink ke halaman sebelumnya
+\newcommand{\daftaIsi}{\phantomsection \tableofcontents}
+\newcommand{\daftarGambar}{\phantomsection \listoffigures}
+\newcommand{\daftarTabel}{\phantomsection \listoftables}
+\newcommand{\kutip}[1]{\citeauthor*{#1}(\citeyear{#1})}
+\newcommand{\kutipLs}[1]{\citeauthor*{#1},\citeyear{#1}}
+\newcommand{\kutipLsHal}[2]{\citeauthor*{#1}, \citeyear{#1}, #2}
 
 %-----------------------------------------------------------------------------%
 % Ubah Istilah Penulisan
 %-----------------------------------------------------------------------------%
 %
 % Beberapa istilah yang tepat untuk digunakan dalam laporan.
-\renewcommand{\bibname}{Daftar Referensi}
 % 
 % 
 \renewcommand{\contentsname}{Daftar Isi}
@@ -296,4 +327,12 @@
 % 
 % 
 \newcommand{\equ}{Persamaan}
-
+%
+%
+%%% Coloring the comment as blue in algorthm
+\newcommand\mycommfont[1]{\footnotesize\ttfamily\textcolor{blue}{#1}}
+\SetCommentSty{mycommfont}
+\SetKwInput{KwInput}{Masukan}                % Set the Input
+\SetKwInput{KwOutput}{Keluaran}              % set the Output
+\SetKwFor{For}{Untuk}{Lakukan}{}
+\SetAlgorithmName{Algoritme}{\autoref}{Daftar Algoritme}

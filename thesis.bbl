@@ -1,0 +1,61 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nyt/global//global/global}
+  \entry{newton1962sir}{book}{}
+    \name{author}{3}{}{%
+      {{hash=NI}{%
+         family={Newton},
+         familyi={N\bibinitperiod},
+         given={I.},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Motte},
+         familyi={M\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CF}{%
+         family={Cajori},
+         familyi={C\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {University of California Press}%
+    }
+    \strng{namehash}{NIMACF1}
+    \strng{fullhash}{NIMACF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1962}
+    \field{labeldatesource}{year}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{isbn}{9780520009271}
+    \field{title}{Sir Isaac Newton's Mathematical Principles of Natural
+  Philosophy and His System of the World}
+    \verb{url}
+    \verb https://books.google.co.id/books?id=ySYULc7VEwsC
+    \endverb
+    \field{year}{1962}
+  \endentry
+\enddatalist
+\endinput

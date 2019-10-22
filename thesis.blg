@@ -1,0 +1,84 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: thesis.aux
+The style file: biblatex.bst
+A level-1 auxiliary file: OTHER/sampul.aux
+A level-1 auxiliary file: OTHER/judul_dalam.aux
+A level-1 auxiliary file: OTHER/pengesahan.aux
+A level-1 auxiliary file: OTHER/orisinal.aux
+A level-1 auxiliary file: OTHER/pengesahan_sidang.aux
+A level-1 auxiliary file: OTHER/pengantar.aux
+A level-1 auxiliary file: OTHER/persetujuan_publikasi.aux
+A level-1 auxiliary file: OTHER/abstrak.aux
+A level-1 auxiliary file: OTHER/abstract.aux
+A level-1 auxiliary file: BAB1/bab1.aux
+A level-1 auxiliary file: BAB2/bab2.aux
+A level-1 auxiliary file: BAB3/bab3.aux
+A level-1 auxiliary file: BAB4/bab4.aux
+A level-1 auxiliary file: BAB5/bab5.aux
+A level-1 auxiliary file: BAB6/bab6.aux
+A level-1 auxiliary file: OTHER/kesimpulan.aux
+A level-1 auxiliary file: OTHER/markLampiran.aux
+A level-1 auxiliary file: OTHER/lampiran.aux
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: thesis-blx.bib
+Database file #2: OTHER/references.bib
+Warning--I didn't find a database entry for "latex.intro"
+Biblatex version: 3.8
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 2 entries,
+            6268 wiz_defined-function locations,
+            1203 strings with 9142 characters,
+and the built_in function-call counts, 7832 in all, are:
+= -- 503
+> -- 223
+< -- 66
++ -- 230
+- -- 86
+* -- 483
+:= -- 877
+add.period$ -- 0
+call.type$ -- 2
+change.case$ -- 41
+chr.to.int$ -- 30
+cite$ -- 2
+duplicate$ -- 783
+empty$ -- 634
+format.name$ -- 88
+if$ -- 1666
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 0
+newline$ -- 60
+num.names$ -- 74
+pop$ -- 395
+preamble$ -- 1
+purify$ -- 49
+quote$ -- 0
+skip$ -- 341
+stack$ -- 0
+substring$ -- 699
+swap$ -- 205
+text.length$ -- 51
+text.prefix$ -- 1
+top$ -- 1
+type$ -- 56
+warning$ -- 0
+while$ -- 123
+width$ -- 0
+write$ -- 59
+(There was 1 warning)
