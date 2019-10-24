@@ -222,6 +222,14 @@
 % Perintah Baru
 %-----------------------------------------------------------------------------%
 
+%
+% Mengganti .et.al pada sitasi dengan dkk
+\DefineBibliographyStrings{english}{andothers={~dkk\adddot}}
+%
+% Mengganti penghubung 'and' dengan 'dan' pada penghubung mlti name sitasi
+\DeclareDelimFormat{finalnamedelim}{%
+  \ifnumgreater{\value{liststop}}{2}{\finalandcomma}{}%
+  \addcomma~\addspace~dan~\space}
 % 
 % Perintah untuk membuat huruf tecetak miring. (alias)
 \newcommand{\f}[1]{\textit{#1}}
